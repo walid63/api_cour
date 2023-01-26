@@ -1,0 +1,13 @@
+{
+    "name": "pc/app",
+    "autoload": {
+        "psr-4": {
+            "Pc\\App\\": "src/"
+        }
+    },
+    "require": {
+        "jajo/jsondb": "^3.0",
+        "fakerphp/faker": "^1.21",
+        "symfony/var-dumper": "^6.2"
+    }
+}
